@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+font-family:"cheap-pine-shadow";
+src:url("https://use.typekit.net/af/67cccf/00000000000000003b9ada21/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/67cccf/00000000000000003b9ada21/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/67cccf/00000000000000003b9ada21/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"cheap-pine";
+src:url("https://use.typekit.net/af/3f3c59/00000000000000003b9ada24/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3f3c59/00000000000000003b9ada24/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3f3c59/00000000000000003b9ada24/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"cheap-pine-sans";
+src:url("https://use.typekit.net/af/d59b60/00000000000000003b9ada31/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/d59b60/00000000000000003b9ada31/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/d59b60/00000000000000003b9ada31/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: black;
+	background: url("../img/burger_home_v2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:scroll;
+}
+
+#wrapper {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+header {
+	width: 960px;
+	/*height: 340px;*/
+}
+
+#lnav {
+	margin-left: 145px;
+	margin-top: 200px;
+}
+
+li {
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 30px;
+}
+
+#logo {
+	float: left;
+	color: white;
+	width: 232px;
+	height: 290px;
+	font-size: 60px;
+	font-family: cheap pine;
+	text-align: center;
+	margin-top: -160px;
+	margin-left: 80px;
+	border: 5px solid white;
+	padding: 40px 0px 0px 0px;
+}
+
+#rnav {
+	float: left;
+	margin-left: 80px;
+}
+
+main {
+	width: 960px;
+	float: left;
+	padding-top: 100px;
+}
+
+#statement {
+	width: 180px;
+	margin-left: 273px;
+	margin-right: 575px;
+	margin-top: 50px;
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	
+}
+
+#arrow {
+	margin-left: 70px;
+}
+
+#GH {
+	margin-bottom: 20px;
+}
+
+#deals {
+	float: left;
+	margin-bottom: 50px;
+}
+
+p {
+	color: white;
+}
+
+li {
+	color: white;
+	float: left;
+	margin-right: 40px;
+}
+footer {
+	width: 950px;
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 18px;
+	float: left;
+}
+
+#map {
+	float: left;
+}
+#location {
+	color: white;
+	margin-left: 18px;
+	float: left;
+	margin-bottom: 20px;
+}
+#clock {
+	float: left;
+	margin-left: 25px;
+}
+#hours {
+	float: left;
+	color: white;
+	margin-left: 18px;
+	margin-bottom: 20px;
+}
+
+#twitter {
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 260px;
+}
+
+#IG {
+	float: left;
+	margin-left: 10px;
+}
+
+#copyright {
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 14px;
+	color: white;
+	float: left;
+	margin-left: 450px;
+}
