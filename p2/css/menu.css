@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+font-family:"cheap-pine-shadow";
+src:url("https://use.typekit.net/af/67cccf/00000000000000003b9ada21/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/67cccf/00000000000000003b9ada21/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/67cccf/00000000000000003b9ada21/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"cheap-pine";
+src:url("https://use.typekit.net/af/3f3c59/00000000000000003b9ada24/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3f3c59/00000000000000003b9ada24/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3f3c59/00000000000000003b9ada24/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"cheap-pine-sans";
+src:url("https://use.typekit.net/af/d59b60/00000000000000003b9ada31/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/d59b60/00000000000000003b9ada31/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/d59b60/00000000000000003b9ada31/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: black;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+header {
+	width: 960px;
+	/*height: 340px;*/
+}
+
+#lnav {
+	margin-left: 145px;
+	margin-top: 90px;
+}
+
+li {
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 30px;
+	color: white;
+	float: left;
+	margin-right: 40px;
+}
+
+#logo {
+	float: left;
+	color: white;
+	width: 115px;
+	height: 140px;
+	font-size: 30px;
+	font-family: "cheap-pine-sans",sans-serif;
+	text-align: center;
+	margin-top: -20px;
+	margin-left: 80px;
+	border: 5px solid white;
+	padding-top: 25px;
+}
+
+main {
+	width: 960px;
+	float: left;
+	padding-top: 50px;
+}
+
+#burger_menu {
+	width: 240px;
+	height: 250px;
+	margin-bottom: 110px;
+	border: solid 3px white;
+	padding: 15px;
+}
+
+#sandwiches {
+	float: left;
+	width: 240px;
+	height: 250px;
+	border: solid 3px white;
+	padding: 15px;
+	
+}
+.column {
+	width: 285px;
+	margin: 0 10px;
+	float: left;
+
+}
+
+#img {
+	margin-left: 27.5px;
+}
+
+#menu {
+	float: left;
+	width: 105px;
+	font-family:"cheap-pine";
+	color: white;
+	font-size: 65px;
+	margin-left: 90px;
+	margin-bottom: 20px;
+}
+
+
+#complimentary_toppings {
+	width: 240px;
+	margin-left: 22.5px;
+	margin-bottom: 80px;
+}
+
+#dogs_menu {
+	float: left;
+	width: 240px;
+	height: 250px;
+	margin-bottom: 110px;
+	border: solid 3px white;
+	padding: 15px;
+}
+
+#fries_menu {
+	float: left;
+	width: 240px;
+	height: 250px;
+	border: solid 3px white;
+	padding: 15px;
+}
+
+footer {
+	width: 950px;
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 18px;
+	float: left;
+}
+
+#map {
+	float: left;
+}
+#location {
+	color: white;
+	margin-left: 18px;
+	float: left;
+	margin-bottom: 20px;
+}
+#clock {
+	float: left;
+	margin-left: 25px;
+}
+#hours {
+	float: left;
+	color: white;
+	margin-left: 18px;
+	margin-bottom: 20px;
+}
+
+#twitter {
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 260px;
+}
+
+#IG {
+	float: left;
+	margin-left: 10px;
+}
+
+#copyright {
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 14px;
+	color: white;
+	float: left;
+	margin-left: 450px;
+	margin-bottom: 20px;
+}
+
+#rnav {
+	float: left;
+	margin-left: 80px;
+}
+
+dl {
+	font-family:"cheap-pine";
+	color: white;
+}
+
+dt {
+	font-family: "cheap-pine-sans",sans-serif;
+	color: white;
+	font-size: 24px;
+}
+
+dd {
+	font-family: "cheap-pine-sans",sans-serif;
+	color: white;
+	font-size: 18px;
+	margin-top: 75px;
+}
+
+h2 {
+	font-family:"cheap-pine";
+	color: white;
+	font-size: 65px;
+}
+
+h3 {
+	font-family: "cheap-pine-sans",sans-serif;
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h4 {
+	font-family: "cheap-pine-sans",sans-serif;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+p {
+	font-family: "cheap-pine-sans",sans-serif;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
